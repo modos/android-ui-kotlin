@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+        <gradient
+                 android:startColor="@color/button_gradiant_start"
+                 android:endColor="@color/button_gradiant_end"
+                 android:angle="180"/>
+
+    <corners android:radius="30dp" />
+
+    <stroke android:color="@color/white" android:width="3dp" />
+
+    <item android:state_pressed="true" />
+    <item android:state_focused="true"/>
+
+    <size android:width="250dp" android:height="75dp"/>
+
+</shape>
